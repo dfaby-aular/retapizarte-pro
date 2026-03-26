@@ -1,13 +1,18 @@
+import { COLORS } from "@/app/constants/colors";
+
 export default function About() {
   return (
     <section className="py-20 max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
       <img
-        src="https://images.unsplash.com/photo-1504148455328-c376907d081c"
+        src="./images/pieza-unica.jpg"
         className="rounded-2xl shadow-xl"
       />
 
       <div>
-        <h2 className="text-4xl font-display font-bold mb-4">
+         <h2 className="text-4xl font-display font-bold mb-6"
+                 style={{
+                             color: COLORS.sand,
+                           }}>
           Artesanos del retapizado
         </h2>
 

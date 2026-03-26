@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { COLORS } from "../constants/colors";
 
 export default function Navbar() {
   const [solid, setSolid] = useState(false);
@@ -13,6 +14,9 @@ export default function Navbar() {
 
   return (
     <nav
+     style={{
+            color: COLORS.letter,
+          }}
       className={`fixed w-full z-50 px-6 py-4 flex justify-between items-center transition ${
         solid
           ? "bg-white/90 backdrop-blur shadow"
@@ -20,7 +24,7 @@ export default function Navbar() {
       }`}
     >
       <h2 className="font-display text-xl font-bold">
-        Retapiz<span className="text-terracota italic">arte</span>
+        ReTapizArte
       </h2>
 
       <a

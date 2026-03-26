@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { COLORS } from "../constants/colors";
 
 const trabajos = [
   {
@@ -21,11 +22,14 @@ const trabajos = [
 
 export default function Catalogo() {
   return (
-    <div className="min-h-screen bg-neutral-100 p-8">
+    <div className="min-h-screen bg-neutral-100 p-8 text-center">
 
-      <h1 className="text-3xl font-bold mb-8 text-gray-800">
+       <h2 className="text-4xl font-display font-bold mb-4"
+            style={{
+                        color: COLORS.espresso,
+                      }}>
         Trabajos de Tapicería
-      </h1>
+      </h2>
 
       <div className="grid md:grid-cols-3 gap-8">
         {trabajos.map((item, i) => (

@@ -1,9 +1,13 @@
+import { COLORS } from "@/app/constants/colors";
 import { TIPS } from "../../data/data";
 
 export default function Tips() {
   return (
     <section className="py-20 text-center">
-      <h2 className="text-4xl font-display font-bold mb-10">
+      <h2 className="text-4xl font-display font-bold mb-10"
+                       style={{
+                                   color: COLORS.sand,
+                                 }}>
         Tips de Tapicería
       </h2>
 

@@ -1,25 +1,35 @@
-import { label } from "framer-motion/client";
+
 
 export const BEFORE_AFTER = [
   {
     label: "Sillón Vintage",
-    before: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-    after:  "https://images.unsplash.com/photo-1493663284031-b7e3aaa4cab7?w=600&q=80",
+    before: "./images/antiguo-antes.png",
+    after:  "./images/antiguo-despues.png",
   },
   {
-    label: "Silla de Comedor",
-    before: "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=600&q=80",
-    after:  "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=600&q=80",
+    label: "Sillón dos cuerpo",
+    before: "./images/sillon-dos-cuerpo-antes.png",
+    after:  "./images/sillon-dos-cuerpo-despues.png",
   },
   {
-    label: "Sofá Familiar",
-    before: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600&q=80",
-    after:  "https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80",
+    label: "Sillón individual",
+    before: "./images/antes.png",
+    after:  "./images/despues.png",
   },
   {
-    label: "Cabecera de Cama",
-    before: "https://images.unsplash.com/photo-1588046130717-0eb0c9a3ba15?w=600&q=80",
-    after:  "https://images.unsplash.com/photo-1615529328331-f8917597711f?w=600&q=80",
+    label: "Silla",
+    before: "./images/silla-antes.png",
+    after:  "./images/silla-despues.png",
+  },
+ {
+     label: "Sillón tres cuerpo",
+    before: "./images/sillon-tres-cuerpo-antes.png",
+    after:  "./images/sillon-tres-cuerpo-despues.png",
+  },
+  {
+    label: "Sillón",
+    before: "./images/sillon-antes.png",
+    after:  "./images/sillon-despues.png",
   },
 ];
 
@@ -75,6 +85,24 @@ export const TIPS = [
     text: "Para hogares con niños o mascotas, elegí telas antimanchas como el chenille o el polipiel. Para ambientes de uso moderado, el lino o el terciopelo aportan elegancia.",
     tag: "Guía",
   },
+   {
+    icon: "🛠️",
+    title: "La estructura es todo",
+    text: "Antes de retapizar, asegurate de que la estructura esté firme. Un buen armazón puede durar décadas, y restaurarlo garantiza un resultado duradero y de calidad.",
+    tag: "Pro Tip",
+  },
+  {
+    icon: "💧",
+    title: "Actuá rápido ante manchas",
+    text: "Cuanto antes limpies una mancha, mejor. Evitá frotar fuerte: presioná suavemente con un paño limpio para no dañar la tela ni expandir la suciedad.",
+    tag: "Cuidado",
+  },
+  {
+    icon: "📏",
+    title: "Medí antes de renovar",
+    text: "Antes de elegir tela o diseño, considerá el espacio y el uso del mueble. Un buen retapizado no solo mejora lo estético, también se adapta a tu estilo de vida.",
+    tag: "Consejos",
+  },
 ];
 
 export const TESTIMONIALS = [
@@ -101,36 +129,5 @@ export const TESTIMONIALS = [
     role: "Villa Urquiza",
     stars: 5,
     text: "Excelente relación precio-calidad. Mi sofá quedó como de showroom. Además, asesoraron muy bien en la elección de la tela. Muy recomendables.",
-  },
-];
-
-export const trabajos = [
-  {
-    id: 1,
-    label: "Sillón 3 cuerpos",
-    categoria: "Living",
-    before: "/images/work/sillon-antes.jpg",
-    after: "/images/work/sillon-despues.jpg",
-  },
-  {
-    id: 2,
-    label: "Sillas comedor",
-    categoria: "Comedor",
-    before: "/images/work/sillas-antes.jpg",
-    after: "/images/work/sillas-despues.jpg",
-  },
-  {
-    id: 3,
-    label: "Respaldo de cama",
-    categoria: "Dormitorio",
-    before: "/images/work/cama-antes.jpg",
-    after: "/images/work/cama-despues.jpg",
-  },
-  {
-    id: 4,
-    label: "Butaca vintage",
-    categoria: "Restauración",
-    before: "/images/work/butaca-antes.jpg",
-    after: "/images/work/butaca-despues.jpg",
   },
 ];

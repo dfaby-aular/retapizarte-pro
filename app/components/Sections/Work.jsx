@@ -1,10 +1,14 @@
+import { COLORS } from "@/app/constants/colors";
 import { BEFORE_AFTER } from "../../data/data";
 import BeforeAfterSlider from "../BeforeAfterSlider";
 
 export default function Work() {
   return (
     <section className="py-20 bg-[#F5EFE6] text-center">
-      <h2 className="text-4xl font-display font-bold mb-10">
+      <h2 className="text-4xl font-display font-bold mb-10"
+                       style={{
+                                   color: COLORS.espresso,
+                                 }}>
         Antes y Después
       </h2>
 
