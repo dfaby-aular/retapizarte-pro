@@ -4,19 +4,19 @@ import { COLORS } from "../constants/colors";
 
 const trabajos = [
   {
-    titulo: "Sillón Moderno",
-    imagen: "/sofa1.jpg",
-    descripcion: "Tapizado en lino premium color beige"
+    titulo: "sillones booth",
+    imagen: "/images/cafeteria.png",
+    descripcion: "Tapizado en pana verde, y fabricación desde cero"
   },
   {
-    titulo: "Silla Vintage",
-    imagen: "/chair1.jpg",
+    titulo: "Sillas Antiguas",
+    imagen: "/images/silla-cuero.png",
     descripcion: "Restauración completa en cuero ecológico"
   },
   {
-    titulo: "Respaldo de Cama",
-    imagen: "/bed1.jpg",
-    descripcion: "Diseño capitoné en pana gris"
+    titulo: "Sillones de recepción",
+    imagen: "/images/sillones-estar.png",
+    descripcion: "Diseño capitoné en cuerina titanio diseño vivo y botones"
   }
 ];
 
@@ -24,7 +24,7 @@ export default function Catalogo() {
   return (
     <div className="min-h-screen bg-neutral-100 p-8 text-center">
 
-       <h2 className="text-4xl font-display font-bold mb-4"
+       <h2 className="text-4xl font-display font-bold mb-10"
             style={{
                         color: COLORS.espresso,
                       }}>

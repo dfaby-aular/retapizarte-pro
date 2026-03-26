@@ -1,7 +1,7 @@
 export default function WhatsAppFloat() {
   return (
     <a
-      href="https://wa.me/5491168851939"
+        href="https://wa.me/5491168851939?text=Hola%20quiero%20solicitar%20un%20presupuesto%20para%20retapizar%20un%20mueble"
       target="_blank"
       className="fixed bottom-6 right-6 bg-green-500 w-16 h-16 flex items-center justify-center rounded-full text-white text-2xl shadow-lg animate-bounce"
      title="Cotizar por WhatsApp"

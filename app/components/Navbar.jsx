@@ -23,15 +23,16 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <h2 className="font-display text-xl font-bold">
+      <h2 className="font-display text-xl font-extrabold">
         ReTapizArte
       </h2>
 
       <a
-        href="https://wa.me/5491100000000"
+        href="https://wa.me/5491168851939?text=Hola%20quiero%20solicitar%20un%20presupuesto%20para%20retapizar%20un%20mueble"
+        target="_blank"
         className="bg-green-500 text-white px-6 py-3 rounded-full font-bold"
       >
-        Cotizar
+        Solicitar Cotización
       </a>
     </nav>
   );

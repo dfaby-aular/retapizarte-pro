@@ -41,7 +41,7 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="mt-8"
         >
-          <Button href="https://wa.me/5491168851939">
+          <Button href="https://wa.me/5491168851939?text=Hola%20quiero%20solicitar%20un%20presupuesto%20para%20retapizar%20un%20mueble">
             Pedí tu presupuesto gratis
           </Button>
         </motion.div>
