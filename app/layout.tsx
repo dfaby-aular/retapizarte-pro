@@ -7,8 +7,8 @@ const lato = Lato({ subsets: ["latin"], weight: ["300", "400", "700"] });
 const dancing = Dancing_Script({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Retapizarte Pro",
-  description: "Tapicería premium",
+  title: "Tapiceria Retapizarte",
+  description: "Tapicería residencial premium",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

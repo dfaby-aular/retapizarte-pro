@@ -74,31 +74,31 @@ export const TIPS = [
     tag: "Cuidado",
   },
   {
-    icon: "🔄",
+    icon: "💰",
     title: "¿Cuándo retapizar vs. comprar nuevo?",
     text: "Si el mueble tiene buena estructura y valor sentimental, el retapizado es siempre más económico y sostenible. Retapizar puede costar hasta 60% menos que comprar uno nuevo.",
     tag: "Consejos",
   },
   {
-    icon: "🎨",
+    icon: "🧵",
     title: "Elegí la tela correcta",
     text: "Para hogares con niños o mascotas, elegí telas antimanchas como el chenille o el polipiel. Para ambientes de uso moderado, el lino o el terciopelo aportan elegancia.",
     tag: "Guía",
   },
-   {
-    icon: "🛠️",
+  {
+    icon: "🪵",
     title: "La estructura es todo",
     text: "Antes de retapizar, asegurate de que la estructura esté firme. Un buen armazón puede durar décadas, y restaurarlo garantiza un resultado duradero y de calidad.",
     tag: "Pro Tip",
   },
   {
-    icon: "💧",
+    icon: "🧼",
     title: "Actuá rápido ante manchas",
     text: "Cuanto antes limpies una mancha, mejor. Evitá frotar fuerte: presioná suavemente con un paño limpio para no dañar la tela ni expandir la suciedad.",
     tag: "Cuidado",
   },
   {
-    icon: "📏",
+    icon: "📐",
     title: "Medí antes de renovar",
     text: "Antes de elegir tela o diseño, considerá el espacio y el uso del mueble. Un buen retapizado no solo mejora lo estético, también se adapta a tu estilo de vida.",
     tag: "Consejos",

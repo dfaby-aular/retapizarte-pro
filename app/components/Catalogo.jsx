@@ -22,7 +22,7 @@ const trabajos = [
 
 export default function Catalogo() {
   return (
-    <div className="min-h-screen bg-neutral-100 p-8 text-center">
+    <section className="bg-neutral-100 p-8 text-center">
 
        <h2 className="text-4xl font-display font-bold mb-10"
             style={{
@@ -62,15 +62,15 @@ export default function Catalogo() {
                 {item.descripcion}
               </p>
 
-              <button className="mt-4 w-full bg-black text-white py-2 rounded-xl hover:bg-gray-800 transition">
+              {/* <button className="mt-4 w-full bg-black text-white py-2 rounded-xl hover:bg-gray-800 transition">
                 Ver detalle
-              </button>
+              </button> */}
             </div>
 
           </motion.div>
         ))}
       </div>
 
-    </div>
+    </section>
   );
 }

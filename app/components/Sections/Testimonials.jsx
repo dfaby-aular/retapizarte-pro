@@ -12,15 +12,16 @@ export default function Testimonials() {
       </h2>
 
       <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-        {TESTIMONIALS.map((t, i) => (
-          <div
-            key={i}
-            className="bg-white p-6 rounded-2xl shadow text-left"
-          >
-            <p className="italic mb-4">"{t.text}"</p>
-            <strong>{t.name}</strong>
-          </div>
-        ))}
+       {TESTIMONIALS.map((t, i) => (
+  <div
+    key={i}
+    className="bg-white p-6 rounded-2xl shadow text-left hover:shadow-lg transition"
+  >
+    <div className="text-yellow-500 mb-2">★★★★★</div>
+    <p>&quot;{t.text}&quot;</p>
+    <strong>{t.name}</strong>
+  </div>
+))}
       </div>
     </section>
   );

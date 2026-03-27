@@ -24,6 +24,7 @@ export default function Home() {
       <Tips />
       <Testimonials />
       <Catalogo />
+          <Marquee />
       <Contact />
       <Footer />
       <WhatsAppFloat />
